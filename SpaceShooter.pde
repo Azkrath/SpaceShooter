@@ -22,7 +22,7 @@ void restart() {
 }
 
 void setup() {
-  size(1366,768, P2D);
+  size(1366,768, JAVA2D);
   smooth(4);
   space = loadImage("Images//space.png");
   frameRate(60);
